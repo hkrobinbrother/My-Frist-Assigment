@@ -411,13 +411,15 @@ height: 140px;
     letter-spacing: 0%;
     text-align: center;
 }
+/* video  */
 .video-insprition-content{
     
     
     margin: 0 auto;
-    width: 1076px;
-    height: 550px;
-    border-radius: 16px;
+    
+    border: 4px solid #000;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 .video{
     
@@ -427,11 +429,458 @@ height: 140px;
     align-items: center;
     border: inset;
     border-radius: 16px;
+    
 
     background: url(Jhankar);
-    box-sizing: border-box;
+    
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-    margin-top: 20px;
+    
 
+}
+/* my current styles */
+
+.my-target-container{
+    width: 1140px;
+    height: 463px;
+ 
+    margin: 0 auto;
+}
+.target-tex-container{
+    
+    
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.target-content{
+   
+    width: 852px;
+    height: 39px;
+
+}
+.target-content h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target-content{
+    color: rgb(113, 114, 118);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target-box-container{
+    width: 1140px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+
+}
+.midell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.box1-content{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.box1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+}
+.box1 img{
+    width: 56px;
+    height: 56px;
+    margin-top: 10px;
+}
+.box1 h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.box1 p{
+    color:rgb(113, 114, 118) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    }
+.box1 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    text-decoration-line: underline;
+    justify-content: space-around;
+    margin-top: 10px
+    }
+    
+
+/* box2 */
+
+
+
+.box2-content{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border-radius: 16px;
+
+    background:  16px;
+
+    background: rgba(0, 76, 232, 0.05);;
+}
+.box2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+}
+.box2 img{
+    width: 56px;
+    height: 56px;
+    margin-top: 10px;
+}
+.box2 h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.box2 p{
+    color:rgb(113, 114, 118) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    }
+.box2 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    text-decoration-line: underline;
+    justify-content: space-around;
+    margin-top: 10px
+    }
+
+    /* box3 */
+    
+.box3-content{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border-radius: 16px;
+
+    background: 16px;
+
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.box3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+}
+.box3 img{
+    width: 56px;
+    height: 56px;
+    margin-top: 10px;
+}
+.box3 h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.box3 p{
+    color:rgb(113, 114, 118) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    }
+.box3 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    text-decoration-line: underline;
+    justify-content: space-around;
+    margin-top: 10px
+    }
+
+
+    /* my next target  */
+
+.my-next-target-container{
+    width: 1140px;
+     height: 870px;
+    
+     margin: 0 auto;
+     margin-top: 50px;
+}
+.my-next-text{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-nx-tr{
+    
+    width: 946px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.my-nx-tr h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.my-nx-tr p{
+    color: rgb(113, 114, 118) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* nex-pic1  */
+.next-target-tex1{
+    border: 2px solid rgb(208, 212, 212);
+    border-radius: 16px;
+    display: flex;
+    margin-top: 43px;
+}
+.my-nx-pic1{
+    margin: 20px ;
+    padding: 20px;
+}
+.my-nx-tx{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+
+}
+.my-nx-tx{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx p{
+    color:rgb(208, 212, 212) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    border: none;
+}
+/* nx-pic2 */
+.next-target-tex2{
+    border: 2px solid rgb(208, 212, 212);
+    border-radius: 16px;
+    display: flex;
+    margin-top: 43px;
+}
+.my-nx-pic2{
+    margin: 20px ;
+    padding: 20px;
+}
+.my-nx-tx{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+
+}
+.my-nx-tx{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx p{
+    color:rgb(208, 212, 212) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    border: none;
+}
+/* nx-pic3 */
+
+.next-target-tex3{
+    border: 2px solid rgb(208, 212, 212);
+    border-radius: 16px;
+    display: flex;
+    margin-top: 43px;
+}
+.my-nx-pic3{
+    margin: 20px ;
+    padding: 20px;
+}
+.my-nx-tx3{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+
+}
+.my-nx-tx h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx p{
+    color:rgb(208, 212, 212) ;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-nx-tx button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    border: none;
 }
