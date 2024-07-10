@@ -33,15 +33,18 @@ body{
     letter-spacing: 0%;
     text-align: left;
 } 
-.name-under-container p{
-    width: 228px;
-    height: 58px;
+
+.name-under-container button{
+    width: 190px;
+    height: 50px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+
     opacity: 0.8;
 
 }
+
 
 /* hope styles */
 .hope-container{
@@ -105,6 +108,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
     color: white;
     padding: 21px 24px 21px 24px;
     flex: none;
@@ -122,6 +126,14 @@ body{
     letter-spacing: 0%;
     text-align: center;
     margin-top: 50px;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+        
+    
 }
 /* why  web dev styles */
 .why-web-container{
